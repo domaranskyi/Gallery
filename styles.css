@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: fit-content;
+    margin: auto;
+}
+.pictures {
+    border: rgb(209, 206, 206) solid 1px;
+    text-align: center;
+    display: inline-block;
+}
+.pictures:hover {
+    border: black solid 1px;
+}
+img {
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
